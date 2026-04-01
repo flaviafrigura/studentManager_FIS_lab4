@@ -56,3 +56,16 @@ public class LoginController {
         loginMessage.setText("Incorrect login!");
     }
 }
+
+class D{
+    public float ints=0;
+    private static int sse=0;
+    public D()
+    {
+        sse+1;;
+    }
+    public float member()
+    {
+        return ints;
+    }
+}
